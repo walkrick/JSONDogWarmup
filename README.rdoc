@@ -1,8 +1,0 @@
-== README
-
-
-
-The Goal of this warmup is to generate the missing table data from the dogs array.
-
-
-

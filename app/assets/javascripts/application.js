@@ -16,24 +16,33 @@
 //= require_tree .
 
 $(document).ready(function () {
-  var gschoolDogs = {"dogs": [
-    {
-      "owner": "Kinsey",
-      "name": "Harliegh",
-      "preferences": [{"favoritefood": "steak"}, {"favoritetoy": "Frog"}]
-    },
-    {
-      "owner": "Bobby",
-      "name": "I don't know",
-      "preferences": [{"favoritefood": "children"}, {"favoritetoy": "children"}]
-    },
-
-    {
-      "owner": "Evan",
-      "name": "Trixie",
-      "preferences": [{"favoritefood": "protien"}, {"favoritetoy": "weights"}]
-    }
-  ]
+  var gschoolDogs = {
+    "dogs": [
+      {
+        "owner": "Kinsey",
+        "name": "Harliegh",
+        "preferences": [
+          {"favoriteFood": "steak"},
+          {"favoriteToy": "Frog"}
+        ]
+      },
+      {
+        "owner": "Bobby",
+        "name": "I don't know",
+        "preferences": [
+          {"favoriteFood": "children"},
+          {"favoriteToy": "children"}
+        ]
+      },
+      {
+        "owner": "Evan",
+        "name": "Trixie",
+        "preferences": [
+          {"favoriteFood": "protien"},
+          {"favoriteToy": "weights"}
+        ]
+      }
+    ]
   };
   // Write come code to add the dogs to the table !!!!
 });
