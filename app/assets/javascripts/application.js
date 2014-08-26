@@ -14,3 +14,27 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function () {
+  var gschoolDogs = {"dogs": [
+    {
+      "owner": "Kinsey",
+      "name": "Harliegh",
+      "preferences": [{"favoritefood": "steak"}, {"favoritetoy": "Frog"}]
+    },
+    {
+      "owner": "Bobby",
+      "name": "I don't know",
+      "preferences": [{"favoritefood": "children"}, {"favoritetoy": "children"}]
+    },
+
+    {
+      "owner": "Evan",
+      "name": "Trixie",
+      "preferences": [{"favoritefood": "protien"}, {"favoritetoy": "weights"}]
+    }
+  ]
+  };
+  // Write come code to add the dogs to the table !!!!
+});
+
